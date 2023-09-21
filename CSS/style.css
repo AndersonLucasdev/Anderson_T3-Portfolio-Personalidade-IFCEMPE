@@ -63,13 +63,23 @@
     border-bottom: 2.5px solid #c4c4cc;
 }
 
-
 .container-header-logos {
     width: 30%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container-header-logos {
+    background-color: #000;
+}
+
+.container-header-logos > img{
+    object-fit: contain; 
+    height: 60%;
+    width: 100%;
+    background-color: #F0FFFF;
 }
 
 .container-main {
