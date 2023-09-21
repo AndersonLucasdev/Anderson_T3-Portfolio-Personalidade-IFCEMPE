@@ -50,7 +50,7 @@
 .container-header-navbar > li > a {
     color: #F0FFFF;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .container-header-navbar li a:hover{
@@ -64,22 +64,20 @@
 }
 
 .container-header-logos {
+    object-fit: contain; 
     width: 30%;
     height: 100%;
+    background-color: #000;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.container-header-logos {
-    background-color: #000;
-}
-
-.container-header-logos > img{
-    object-fit: contain; 
-    height: 60%;
-    width: 100%;
-    background-color: #F0FFFF;
+.container-header-logos img{
+    height: 36%;
+    width: 8%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(336deg) brightness(107%) contrast(102%);
+    cursor: pointer;
 }
 
 .container-main {
