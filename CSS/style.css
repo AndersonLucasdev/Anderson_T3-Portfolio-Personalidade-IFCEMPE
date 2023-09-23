@@ -62,6 +62,27 @@
     border-bottom: 2.5px solid #c4c4cc;
 }
 
+<<<<<<< HEAD
+=======
+.container-header-logos {
+    object-fit: contain; 
+    width: 30%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-header-logos img{
+    object-fit: contain;
+    height: 36%;
+    width: 8%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(336deg) brightness(107%) contrast(102%);
+    cursor: pointer;
+}
+
+>>>>>>> 4964ed7dd8036b3264739b53171678d2186364b2
 .container-main {
     height: 89vh;
     width: 100%;
@@ -72,4 +93,78 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%; */
+}
+
+.container-main-divisao1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-main-divisao1-titulo {
+    width: 80%;
+    height: 12%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.container-main-divisao1-titulo > h1 {
+    font-size: 3.5rem;
+    color: #000;
+}
+
+.container-main-divisao1-paragrafo {
+    width: 40%;
+    height: 30%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.container-main-divisao1-paragrafo > p {
+    font-size: 1rem;
+    color: #000;
+    text-align: justify;
+}
+
+.container-main-divisao2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-main-divisao2-titulo {
+    width: 80%;
+    height: 12%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.container-main-divisao2-titulo > h1 {
+    font-size: 3.5rem;
+    color: #000;
+}
+
+.container-main-divisao2-paragrafo {
+    width: 40%;
+    height: 30%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.container-main-divisao2-paragrafo > p {
+    font-size: 1rem;
+    color: #000;
+    text-align: justify;
 }
