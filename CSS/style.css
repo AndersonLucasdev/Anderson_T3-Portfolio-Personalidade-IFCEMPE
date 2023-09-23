@@ -18,13 +18,12 @@
 }
 
 .container-header {
-    background-color: #000;
     width: 100%;
     height: 11vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(70, 69, 69, 0.2);
 }
 
 .container-header-logo {
@@ -61,23 +60,6 @@
 .ativo {
     padding-bottom: 1px;
     border-bottom: 2.5px solid #c4c4cc;
-}
-
-.container-header-logos {
-    object-fit: contain; 
-    width: 30%;
-    height: 100%;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.container-header-logos img{
-    height: 36%;
-    width: 8%;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(336deg) brightness(107%) contrast(102%);
-    cursor: pointer;
 }
 
 .container-main {
