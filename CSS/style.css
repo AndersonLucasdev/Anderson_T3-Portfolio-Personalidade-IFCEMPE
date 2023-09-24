@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 4px rgba(70, 69, 69, 0.2);
+  /* box-shadow: 0 2px 4px rgba(70, 69, 69, 0.2); */
 }
 
 .container-header-logo {
@@ -92,7 +92,7 @@
 }
 
 .container-header-menu-texto {
-  width: 20%;
+  width: 30%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -101,7 +101,7 @@
 
 .container-header-menu-texto h4 {
     color: #000;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .container-header-menu-icon {
@@ -113,7 +113,8 @@
 }
 
 .container-header-menu-icon img {
-  height: 40%;
+  object-fit:fill;
+  height: 70%;
   width: 80%;
   cursor: pointer;
 }
