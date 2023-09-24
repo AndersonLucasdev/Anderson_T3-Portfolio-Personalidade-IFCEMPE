@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
   padding: 0;
@@ -122,10 +123,96 @@
   height: 89vh;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: end;
+  justify-content: left;
   /* background-image: url("../img/img02t2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%; */
+}
+
+.container-main-textos {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  align-items: end;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.container-main-textos-nome {
+  width: 95%;
+  height: 7%;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+}
+
+.container-main-textos-nome h4 {
+  color: #b1b1bd;
+  font-size: 1rem;
+  margin-bottom: 5%;
+}
+
+.container-main-textos-titulo {
+  width: 95%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-main-textos-titulo1 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.container-main-textos-titulo1 h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container-main-textos-titulo2 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.container-main-textos-titulo2 h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container-main-textos-descricao {
+  width: 95%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main-textos-descricao p {
+  color: #8c8c9c;
+}
+
+.container-main-textos-outros {
+  width: 95%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.container-main-textos-outros-espacamento {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
 }
