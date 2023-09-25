@@ -21,14 +21,19 @@
 
 .imagem-principal {
   position: absolute;
-  background-image: url("../IMG/img-principal.png");
+  background-image: url("../IMG/img-teste.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  right: -30%;
-  bottom: 0;
-  width: 70%;
-  height: 110%;
+  right: 0%;
+  bottom: 0%;
+  width: 50%;
+  height: 90%;
+} 
+
+.borda {
+  position: absolute;
+  
 }
 
 .container-header {
