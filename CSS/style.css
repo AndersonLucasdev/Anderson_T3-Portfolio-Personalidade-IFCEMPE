@@ -21,20 +21,16 @@
 
 .imagem-principal {
   position: absolute;
-  background-image: url("../IMG/img-teste.png");
+  background-image: url("../IMG/imagem-kaio-removebg-preview\ \(1\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  right: 0%;
-  bottom: 0%;
-  width: 50%;
-  height: 90%;
+  right: -32%;
+  bottom: -12%;
+  width: 75%;
+  height: 100%;
 } 
 
-.borda {
-  position: absolute;
-  
-}
 
 .container-header {
   width: 100%;
@@ -69,7 +65,7 @@
 
 .container-header-logo-texto {
   width: 70%;
-  height: 70%;
+  height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,10 +159,15 @@
   justify-content: left;
 }
 
-.container-main-textos-nome h4 {
-  color: #b1b1bd;
-  font-size: 1rem;
-  margin-bottom: 0.5%;
+.container-main-textos-nome h5 {
+  font-size: .95rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  letter-spacing: .4em;
+  color: #878a8f;
 }
 
 .container-main-textos-titulo {
@@ -186,22 +187,12 @@
   justify-content: left;
 }
 
-.container-main-textos-titulo1 h1 {
-  font-size: 2.8rem;
-  font-weight: bold;
-}
-
-.container-main-textos-titulo2 {
-  width: 100%;
-  height: 35%;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-
-.container-main-textos-titulo2 h1 {
-  font-size: 2.8rem;
-  font-weight: bold;
+.container-main-textos-titulo-texto h1 {
+  font-size: 2.9rem;
+  font-weight: 800;
+  letter-spacing: -.01em;
+  color: #0f141e;
+  font-weight: 900;
 }
 
 .container-main-textos-descricao {
@@ -210,10 +201,14 @@
   display: flex;
   align-items: start;
   justify-content: center;
+  margin-bottom: 4%;
 }
 
 .container-main-textos-descricao p {
-  color: #8c8c9c;
+  color: #878a8f;
+  font-weight: 100;
+  font-size: 1.2rem;
+  
 }
 
 .container-main-textos-outros {
@@ -230,4 +225,26 @@
   display: flex;
   align-items: left;
   justify-content: space-between;
+}
+
+.container-main-textos-outros-espacamento p {
+  color: #ababb8;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+.container-main-textos-outros-espacamento h4 a {
+  color: #0f141e;
+  border: 0 none;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-main-textos-outros-espacamento h4 a:hover {
+  color: #0f141e;
+  border-bottom: 1px solid rgba(135,138,143,.4);
+  transition: all .2s cubic-bezier(.3,0,.5,1);
+
 }
