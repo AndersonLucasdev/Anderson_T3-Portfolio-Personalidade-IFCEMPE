@@ -119,21 +119,21 @@
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  margin: 15px 35px 0 0;
+  margin: 15px 20px 0 0;
 }
 
 .container-header-menu-icon {
   width: 10%;
-  height: 25%;
+  height: 24%;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: start;
   position: relative;
 }
 
 .seta {
     position: absolute;
-    width: 45%;
+    width: 40%;
     height: 3px;
     background-color: #878a8f;
     transform-origin: center;

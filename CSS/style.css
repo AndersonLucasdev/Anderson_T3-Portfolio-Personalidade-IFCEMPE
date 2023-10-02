@@ -118,7 +118,11 @@
 
 .container-header-menu-texto h4 {
     color: #000;
-    font-size: 0.8rem;
+    font-size: 0.8125rem;
+    line-height: 1.0625rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
 .container-header-menu-icon {
