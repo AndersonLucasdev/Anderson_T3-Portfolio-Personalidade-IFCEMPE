@@ -39,6 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: left;
+  cursor: pointer;
 }
 
 .container-header-logo-img {
@@ -61,7 +62,7 @@
 
 .container-header-logo-texto {
   width: 70%;
-  height: 75%;
+  height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,7 +70,7 @@
 }
 
 .container-header-logo-texto-titulo {
-  height: 45%;
+  height: 60%;
   width: 100%;
   display: flex;
   align-items: end;
@@ -100,13 +101,14 @@
   display: flex;
   align-items: center;
   justify-content: right;
+  cursor: pointer;
 }
 
 .container-header-menu-texto {
   width: 30%;
-  height: 60%;
+  height: 100%;
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: right;
 }
 
@@ -122,9 +124,9 @@
 
 .container-header-menu-icon {
   width: 10%;
-  height: 40%;
+  height: 25%;
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: start;
   position: relative;
 }
