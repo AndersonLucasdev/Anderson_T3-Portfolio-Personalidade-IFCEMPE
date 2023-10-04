@@ -173,8 +173,17 @@
   flex-direction: column;
 }
 
-.container-main-menu-home, .container-main-menu-porfolio, .container-main-menu-sobre, .container-main-menu-lattes, .container-main-menu-instagram, .container-main-menu-linkedin {
-  height: 20%;
+.container-main-menu > ul {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-main-menu > ul > li {
+  height: 10%;
   width: 100%;
   display: flex;
   align-items: center;
