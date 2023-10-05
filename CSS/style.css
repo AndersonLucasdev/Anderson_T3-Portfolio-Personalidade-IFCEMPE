@@ -1,5 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 * {
   padding: 0;
@@ -29,8 +29,7 @@
   bottom: -12%;
   width: 75%;
   height: 100%;
-} 
-
+}
 
 .container-header {
   width: 100%;
@@ -66,7 +65,7 @@
 
 .container-header-logo-texto {
   width: 70%;
-  height: 90%;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,8 +82,9 @@
 }
 
 .container-header-logo-texto-titulo h3 {
-    color: #000;
-    font-size: 1.25rem;
+  color: #000;
+  font-size: 1.25rem;
+  letter-spacing: 0.1em;
 }
 
 .container-header-logo-texto-descricao {
@@ -96,8 +96,9 @@
 }
 
 .container-header-logo-texto-descricao p {
-    color: #000;
-    font-size: 0.75rem;
+  color: #000;
+  font-size: 0.75rem;
+  letter-spacing: 0.13em;
 }
 .container-header-menu {
   width: 50%;
@@ -117,12 +118,12 @@
 }
 
 .container-header-menu-texto h4 {
-    color: #000;
-    font-size: 0.8125rem;
-    line-height: 1.0625rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
+  color: #000;
+  font-size: 0.8125rem;
+  line-height: 1.0625rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .container-header-menu-icon {
@@ -147,7 +148,6 @@
   display: flex;
   align-items: end;
   justify-content: left;
-  
 }
 
 .container-main-textos {
@@ -168,13 +168,13 @@
 }
 
 .container-main-textos-nome h5 {
-  font-size: .95rem;
+  font-size: 0.95rem;
   line-height: 1.25rem;
   text-transform: uppercase;
   padding-top: 5px;
   padding-bottom: 5px;
   font-weight: 400;
-  letter-spacing: .4em;
+  letter-spacing: 0.4em;
   color: #878a8f;
 }
 
@@ -198,7 +198,7 @@
 .container-main-textos-titulo-texto h1 {
   font-size: 2.9rem;
   font-weight: 800;
-  letter-spacing: -.01em;
+  letter-spacing: -0.01em;
   color: #0f141e;
   font-weight: 900;
 }
@@ -216,7 +216,6 @@
   color: #878a8f;
   font-weight: 100;
   font-size: 1.2rem;
-  
 }
 
 .container-main-textos-outros {
@@ -256,7 +255,6 @@
 
 .container-main-textos-outros-espacamento h4 a:hover {
   color: #0f141e;
-  border-bottom: 1px solid rgba(135,138,143,.4);
-  transition: all .2s cubic-bezier(.3,0,.5,1);
-
+  border-bottom: 1px solid rgba(135, 138, 143, 0.4);
+  transition: all 0.2s cubic-bezier(0.3, 0, 0.5, 1);
 }
