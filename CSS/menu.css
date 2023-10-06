@@ -58,6 +58,7 @@
 
 .container-header-logo-img {
   color: #878a8f;
+  font-size: 2rem;
 }
 
 .container-header-logo-texto {
@@ -149,6 +150,11 @@
   transform: rotate(-45deg);
 }
 
+.container-header-menu:hover > .container-header-menu-icon > .seta {
+  transform: rotate(90deg);
+  transform: rotate(-90deg);
+}
+
 .container-main {
   height: 89vh;
   width: 100%;
@@ -199,19 +205,28 @@
   height: 10%;
   width: 100%;
   display: flex;
-  margin-bottom: 6%;
+  margin-bottom: 3.5%;
   align-items: center;
   justify-content: center;
   list-style: none;
 }
 
+
 .container-main-menu > ul > li > a {
   color: #878a8f;
   text-decoration: none;
-  font-size: 4rem;
+  font-weight: bold;
+  font-size: 4.5rem;
   line-height: 5rem;
 }
 
-.container-main-menu > ul > li > a:hover {
+.container-main-menu > ul > li:hover > a {
   color: #f0ffff;
+  border-left: 7rem solid #f0ffff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.ativo {
+  color: #f0ffff;
+  border-left: 7rem solid #f0ffff;
 }
