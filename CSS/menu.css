@@ -220,13 +220,28 @@
   line-height: 5rem;
 }
 
+.container-main-menu > ul > li:hover > a::before,
+.ativo::before {
+  content: "";
+  width: 5rem;
+  height: 0.4rem;
+  background-color: #f0ffff;
+  position: absolute;
+  bottom: 37%;
+  left: -50%;
+  transform: translateY(-50%);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .container-main-menu > ul > li:hover > a {
   color: #f0ffff;
-  border-left: 7rem solid #f0ffff;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  position: relative; 
+
+
 }
 
 .ativo {
   color: #f0ffff;
-  border-left: 7rem solid #f0ffff;
+  position: relative; 
+
 }
