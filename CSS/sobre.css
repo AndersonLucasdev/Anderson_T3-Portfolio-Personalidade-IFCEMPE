@@ -1,0 +1,216 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-menu {
+  width: 20%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: absolute;
+  top: 5%;
+  right: 4%;
+}
+
+.container-menu-texto {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 4%;
+}
+
+.container-menu-texto h4 {
+  color: #000;
+  font-size: 0.8125rem;
+  line-height: 1.0625rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+}
+
+.container-menu-icon {
+  width: 10%;
+  height: 26%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.traco {
+  background: #0f141e;
+  display: block;
+  width: 22px;
+  height: 3px;
+}
+
+.container-header {
+  width: 93%;
+  height: 14vh;
+  display: flex;
+  align-items: end;
+  justify-content: left;
+}
+
+.container-header-logo {
+  width: 42%;
+  height: 77%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.container-header-logo-img {
+  width: 8%;
+  height: 60%;
+  background-color: transparent;
+  border: 3px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container-header-logo-texto {
+  width: 70%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-header-logo-texto-titulo {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: left;
+  margin-bottom: 0.2%;
+}
+
+.container-header-logo-texto-titulo h3 {
+  color: #000;
+  font-size: 1.25rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.container-header-logo-texto-descricao {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+}
+
+.container-header-logo-texto-descricao p {
+  color: #000;
+  font-size: 0.65rem;
+  letter-spacing: 0.13em;
+  cursor: pointer;
+}
+
+.container-main {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: left;
+}
+
+.container-main-introducao {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-main-introducao-titulo {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.container-main-introducao-titulo h3 {
+  font-size: 0.95rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  letter-spacing: 0.4em;
+  color: #878a8f;
+}
+
+.container-main-introducao-texto {
+  height: 40%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main-introducao-texto h1 {
+  font-family: "Helvetica Now Display DW", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #0f141e;
+  font-size: 2.65rem;
+  line-height: 3.125rem;
+  padding-top: 4px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.container-main-introducao-descricao {
+  margin-top: 3%;
+  height: 20%;
+  width: 63%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main-introducao-descricao p {
+  font-family: "Helvetica Now Display DW",sans-serif;
+  font-weight: 500;
+  color: #878a8f;
+  letter-spacing: normal;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  text-align: center;
+}
