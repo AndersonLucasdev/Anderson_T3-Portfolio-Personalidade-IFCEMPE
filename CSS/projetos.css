@@ -28,7 +28,7 @@
   position: fixed;
   top: 5%;
   right: 4%;
-  z-index: 4;
+  z-index: 3;
 }
 
 .container-menu-texto {
@@ -150,6 +150,7 @@
   align-items: end;
   justify-content: left;
   flex-direction: column;
+  
   margin-top: 7%;
 }
 
