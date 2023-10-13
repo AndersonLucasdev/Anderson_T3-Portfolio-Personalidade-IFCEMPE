@@ -8,7 +8,7 @@
 }
 
 .container {
-  height: 100vh;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -25,9 +25,10 @@
   display: flex;
   align-items: center;
   justify-content: right;
-  position: absolute;
+  position: fixed;
   top: 5%;
   right: 4%;
+  z-index: 2;
 }
 
 .container-menu-texto {
@@ -72,6 +73,10 @@
   display: flex;
   align-items: end;
   justify-content: left;
+  margin-bottom: 7%;
+  position: fixed;
+  top: 0;
+  left: 3;
 }
 
 .container-header-logo {
@@ -144,11 +149,11 @@
   align-items: end;
   justify-content: left;
   flex-direction: column;
-  overflow-x: hidden;
+  margin-top: 7%;
 }
 
 .container-main-introducao {
-  height: 86vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -198,8 +203,8 @@
   text-align: center;
 }
 
-.container-main-introducao-lista {
-  height: 85%;
+.container-main-lista {
+  height: 180vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -207,15 +212,16 @@
   flex-direction: column;
 }
 
-.container-main-introducao-lista-items {
+.container-main-lista-items {
   height: 90%;
-  width: 95%;
+  width: 96%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin-left: 4%;
 }
 
-.container-main-introducao-lista-item {
+.container-main-lista-item {
   height: 90%;
   width: 95%;
   display: flex;
@@ -225,10 +231,10 @@
   background-color: #000;
 }
 
-.item01, .item02, .item03, .item03 {
+.item01, .item02, .item03, .item04 {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 90% 90%;
+  background-size: 98% 98%;
 }
 
 .item01 {
@@ -243,7 +249,7 @@
   background-image: url("../IMG/imglista03.jpg");
 }
 
-.item014 {
+.item04 {
   background-image: url("../IMG/imglista04.jpg");
 }
 
