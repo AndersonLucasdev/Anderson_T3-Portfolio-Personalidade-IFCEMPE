@@ -28,7 +28,7 @@
   position: fixed;
   top: 5%;
   right: 4%;
-  z-index: 3;
+  z-index: 4;
 }
 
 .container-menu-texto {
@@ -150,7 +150,6 @@
   align-items: end;
   justify-content: left;
   flex-direction: column;
-  
   margin-top: 7%;
 }
 
@@ -268,7 +267,7 @@
 }
 
 .container-main-lista-item-data {
-  width: 75%;
+  width: 70%;
   height: 10%;
   display: flex;
   align-items: end;
@@ -288,7 +287,7 @@
 }
 
 .container-main-lista-item-titulo {
-  width: 75%;
+  width: 70%;
   height: 80%;
   display: flex;
   align-items: start;
@@ -297,8 +296,11 @@
 }
 
 .container-main-lista-item-titulo h3 {
-  font-size: 2.65rem;
-  line-height: 3rem;
+  font-family: "Helvetica Now Display DW", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  font-size: 2.30rem;
+  line-height: 3.125rem;
   padding-top: 5px;
   padding-bottom: 5px;
   font-weight: 400;
