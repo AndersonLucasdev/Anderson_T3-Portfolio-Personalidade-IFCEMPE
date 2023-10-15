@@ -10,7 +10,7 @@
 hr {
   width: 85%;
   height: 0.1px;
-  color: #e4e9f1;
+  color: #e4e9f1;;
 }
 
 .container {
@@ -145,11 +145,13 @@ hr {
 }
 
 .container-main {
-  height: 80vh;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: end;
   justify-content: left;
+  flex-direction: column;
+  margin-top: 4%;
 }
 
 .container-main-introducao {
@@ -220,6 +222,157 @@ hr {
   padding-top: 2px;
   padding-bottom: 3px;
   text-align: center;
+}
+
+.linha-horizontal {
+  margin-top: 2%;
+  width: 80%;
+  height: 1px;
+  background-color: #e4e9f1;
+}
+
+.container-main-experiencia {
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-main-experiencia-textos {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+
+.container-main-experiencia-textos-titulo1 {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main-experiencia-textos-titulo1 h3 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  letter-spacing: 0.4em;
+  color: #878a8f;
+}
+
+.container-main-experiencia-textos-titulo2 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main-experiencia-textos-titulo2 h2 {
+  font-size: 2.75rem;
+  line-height: 3.125rem;
+  padding-top: 4px;
+  padding-bottom: 1px;
+  font-family: "Helvetica Now Display DW", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #0f141e;
+}
+
+.container-main-experiencia-textos-descricao {
+  height: 40%;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.container-main-experiencia-textos-descricao p {
+  font-weight: 500;
+  color: #878a8f;
+  letter-spacing: normal;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.container-main-experiencia-lista {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main-experiencia-lista-nome {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#escuro p {
+  font-weight: 500;
+  color: #0f141e;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  padding-top: 1px;
+  padding-bottom: 4px;
+}
+
+.container-main-experiencia-lista-descricao {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 3%;
+}
+
+.container-main-experiencia-lista-descricao p {
+  font-weight: 500;
+  color: #878a8f;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  padding-top: 1px;
+  padding-bottom: 4px;
+}
+
+.container-main-experiencia-lista-datas {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 3%;
+}
+
+.container-main-experiencia-lista-datas p {
+  font-weight: 500;
+  color: #878a8f;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  padding-top: 1px;
+  padding-bottom: 4px;
 }
 
 .container-footer {
